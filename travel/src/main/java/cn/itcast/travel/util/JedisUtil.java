@@ -55,10 +55,5 @@ public final class JedisUtil {
     }
 
 
-    /*@Test
-    public void test()
-    {
-        Jedis jedis = getJedis();
-        System.out.println(jedis);
-    }*/
+
 }

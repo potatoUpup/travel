@@ -47,8 +47,6 @@ CREATE TABLE `tab_favorite` (
 
 /*Data for the table `tab_favorite` */
 
-insert  into `tab_favorite`(`rid`,`date`,`uid`) values (1,'2020-10-06',46),(2,'2020-10-06',46),(4,'2020-10-06',46);
-
 /*Table structure for table `tab_route` */
 
 DROP TABLE IF EXISTS `tab_route`;
@@ -134,8 +132,6 @@ CREATE TABLE `tab_user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*Data for the table `tab_user` */
-
-insert  into `tab_user`(`uid`,`username`,`password`,`name`,`birthday`,`sex`,`telephone`,`email`,`status`,`code`) values (46,'zhangsan','cxl10086','张三','2020-09-21','男','18819616020','1697860175@qq.com','Y','823a98bb5c754b7188cfc4fdd8863ae4');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
